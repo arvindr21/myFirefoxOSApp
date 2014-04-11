@@ -1,0 +1,19 @@
+{
+  "name": "myfirefoxapp",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-connect": "*",
+    "grunt-mocha": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-firefoxos": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-contrib-handlebars": "*",
+    "jquery": "^2.1.0"
+  }
+}

@@ -1,4 +1,12 @@
-# GeoNames Weather App for Firefox OS
+# myFirefoxApp
+
+## Install
+
+Clone or Download the repo and then run
+
+```bash
+npm install
+```
 
 ## Getting started
 

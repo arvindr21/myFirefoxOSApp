@@ -5,7 +5,7 @@
 Clone or Download the repo and then run
 
 ```bash
-npm install
+$ npm install
 ```
 
 ## Getting started

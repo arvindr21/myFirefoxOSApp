@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Weather App</title>
+      <meta charset="utf-8">
+      <link href="/styles/gaiabb/all.css" rel="stylesheet" type="text/css">
+      <link href="/styles/main.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <section role="region">
+         <header>
+            <h1>Check Weather</h1>
+         </header>
+      </section>
+      <section data-type="list" id="main">
+         <section data-type="list">
+            <header>Select Country</header>
+            <ul class='countries'>
+               <li>
+                  <a href="#">
+                     <p>
+                        <progress></progress>Loading please wait...
+                     </p>
+                  </a>
+               </li>
+            </ul>
+         </section>
+      </section>
+      <div id="details" class="disp-none">
+         <section role="region" data-type="list">
+            <section data-type="list">
+               <header>Wheather Details</header>
+               <ul>
+                  <li>
+                     <b>
+                     Temperature : <span id="temp">25 degrees</span>
+                     </b>
+                  </li>
+                  <li>
+                     <b>
+                     Wind Speed : <span id="wind">25 MPH</span>
+                     </b>
+                  </li>
+                  <li>
+                     <b>
+                     Clouds : <span id="clouds">25</span>
+                     </b>
+                  </li>
+                  <li>
+                     <b>
+                     Humidity : <span id="humidity">25</span>
+                     </b>
+                  </li>
+                  <li>
+                     <b>
+                     Data from  : <span id="source">25</span>
+                     </b>
+                  </li>
+               </ul>
+            </section>
+         </section>
+         <button id="back">Back</button>
+      </div>
+      <script defer src="/scripts/vendor/jquery.min.js"></script>
+      <script defer src="/scripts/main.js"></script>
+   </body>
+</html>

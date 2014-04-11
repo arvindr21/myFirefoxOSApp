@@ -1,4 +1,4 @@
-# myFirefoxApp
+# GeoNames Weather App for Firefox OS
 
 ## Getting started
 

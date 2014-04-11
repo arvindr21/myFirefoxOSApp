@@ -1,4 +1,5 @@
 # myFirefoxApp
+Generated using Yeoman [generator-firefoxos](https://github.com/pdi-innovation/generator-firefoxos)
 
 ## Install
 
